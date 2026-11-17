@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Parking - Lab 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Smart Parking - Tec de Monterrey</h1>
+    </header>
+
+    <main>
+        <!-- Dashboard de estadísticas -->
+        <section class="dashboard">
+            <div class="stat-box">
+                <h3>Total</h3>
+                <p id="total-espacios">0</p>
+            </div>
+            <div class="stat-box">
+                <h3>Disponibles</h3>
+                <p id="espacios-disponibles" class="text-green">0</p>
+            </div>
+            <div class="stat-box">
+                <h3>Ocupados</h3>
+                <p id="espacios-ocupados" class="text-red">0</p>
+            </div>
+            <div class="stat-box">
+                <h3>Ocupación</h3>
+                <p id="porcentaje-ocupacion">0%</p>
+            </div>
+        </section>
+
+        <!-- Contenedor del estacionamiento -->
+        <section class="parking-container">
+            <!-- La imagen "smart parking.jpg" se aplicará como fondo por CSS -->
+            <div id="parking-map">
+                <!-- Los espacios de estacionamiento (divs) se inyectarán aquí desde JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
