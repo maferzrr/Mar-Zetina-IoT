@@ -69,20 +69,17 @@ header {
     overflow: hidden;
 }
 
-/* Reemplaza solo esta clase en tu style.css */
 .parking-spot {
     position: absolute;
-    width: 14px;  /* Más angosto */
-    height: 24px; /* Más corto */
+    width: 14px;  
+    height: 24px; 
     border: 1px solid white;
     border-radius: 2px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    /* Mantenemos la inclinación original que coincide con la foto */
     transform: rotate(28deg); 
 }
 
-/* Reducimos un poco el borde al pasar el mouse para que no se mueva el cajón */
 .parking-spot:hover {
     border-color: #ffc107;
     border-width: 2px;
